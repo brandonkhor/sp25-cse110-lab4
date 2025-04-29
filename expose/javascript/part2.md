@@ -1,1 +1,4 @@
-
+1. Line 12 will print `3` in the console because on line 6, we declare `i` as a `var`, meaning its scope isn't limited to the `for` block and can be used outside of it. In the given example, `prices` has a length of 3, so the `for` loop will break once `i` reaches 3.
+2. Line 13 will print `150` in the console. Since `discountedPrice` is a `var`, it can be used outside the block it was defined in. We can see that for each iteration of the for loop, `var discountedPrice = prices[i] * (1 - discount)`, so the value of `discountedPrice` will be for the last element of `prices`, which is `300`. If we plug it in with `discount = 0.5`, we get 300 * (1-0.5) = 150.
+3. Line 14 will print `150` in the console. Since `finalPrice` is a `var`, it has a function scope. We set `finalPrice = Math.round(discountedPrice * 100) / 100`. As seen in 2, the last value of `discountedPrice` will be `150`. Plugging this into `finalPrice`, we get `150`.
+4. The function will return an array containing each element in `prices` after the discount and rounding is applied. The final result of `discounted` is `[ 50, 100, 150 ]`
