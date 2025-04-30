@@ -1,4 +1,4 @@
-1. citylots.md
+1. citylots.json
 2. expose.js
 3. 779 kB
 4. 106 ms
