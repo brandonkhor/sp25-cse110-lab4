@@ -10,7 +10,7 @@
 10. Line 12 will print `3` in the console because on line 4, we declare `length` as a `const`, meaning it's block-scoped and the value cannot be changed. However, line 4 isn't contained in any block, so it can be used throughout the function. `Length` is never changed in anyway, so no error there. Since `prices` contains 3 elements, `length` is 3.
 11. The function will return `discounted` which is `[ 50, 100, 150 ]`. In the `for` loop, we are declaring and pushing `discountedPrice`. Even though it is a `const`, we are never changing its value after it is declared. Rather, we are just redeclaring it for each iteration of the loop, allowing us to "change" the value of `discountedPrice` for each iteration.
 12. <br> A. student.name
-    B. student["Grad Year"]
-    C. student.greeting()
-    D. student["Favorite Teacher"].name
-    E. student.coarseLoad[0]
+    <br> B. student["Grad Year"]
+    <br> C. student.greeting()
+    <br> D. student["Favorite Teacher"].name
+    <br> E. student.coarseLoad[0]
