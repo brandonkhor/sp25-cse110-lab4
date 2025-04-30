@@ -29,7 +29,9 @@
     <br> E. true == 2 **false**, true becomes 1, and since 1 != 2, we get false
     <br> F. true === Boolean(2) **true**, Boolean(0) is the only thing that evaluates to false, so Boolean(2) is true, so true
 15. == compares the values (can do type coercion), whereas === compares the types and the values (no type coercion)
+16. See js file
 17. The result will be `[2,4,6]`. It iterates through the array `[1,2,3]` and applies the callback function to each element, which doubles the element. Each of these new doubled elements are pushed to `newArr`, which is then returned, giving us our result.
+18. See js file
 19. 1
 <br> 4
 <br> 3
