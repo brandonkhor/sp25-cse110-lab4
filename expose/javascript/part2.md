@@ -14,3 +14,19 @@
     <br> C. student.greeting()
     <br> D. student["Favorite Teacher"].name
     <br> E. student.coarseLoad[0]
+13. <br> A. '3' + 2 = '32' since integers map to their exact string representation
+    <br> B. '3' - 2 = 1 due to the -, '3' becomes the integer 3, making it simple arithmetic
+    <br> C. 3 + null = 3 because null is converted to a 0, so 3 + 0 = 3
+    <br> D. '3' + null = '3null' because null is converted to a string due to string concatenation
+    <br> E. true + 3 = 4 because true turns into 1, so 1 + 3 = 4
+    <br> F. false + null = 0 because as mentioned in C, null is 0, and false turns into 0
+    <br> G. '3' + undefined = '3underfined' because like D, the underfined is converted to a string due to string concatenation
+    <br> H. '3' - undefined = NaN because like B, '3' becomes the integer 3, and subtracting undefined makes it NaN
+14. <br> A. '2' > 1 **true**, '2' is convert to the integer 2, so 2 > 1 = true
+    <br> B. '2' < '12' **false**, since they're both strings, it is compared lexicographically, and since '2' comes after '1', it is false
+    <br> C. 2 == '2' **true**, == allows for type coercion, so '2' becomes 2
+    <br> D. 2 === '2' **false**, === requires the types and values to be the same, so results to false
+    <br> E. true == 2 **false**, true becomes 1, and since 1 != 2, we get false
+    <br> F. true === Boolean(2) **true**, Boolean(0) is the only thing that evaluates to false, so Boolean(2) is true, so true
+15. == compares the values (can do type coercion), whereas === compares the types and the values (no type coercion)
+    
